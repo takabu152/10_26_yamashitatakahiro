@@ -8,7 +8,7 @@ if (
     !isset($_POST['message']) || $_POST['message'] == '' ||
     !isset($_POST['chatroomid']) || $_POST['chatroomid'] == ''
 ) {
-    var_dump('エラーじゃね？');
+
     exit('ParamError');
 }
 
